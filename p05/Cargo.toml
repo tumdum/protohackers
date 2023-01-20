@@ -1,0 +1,12 @@
+[package]
+name = "p05"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.68"
+async-channel = "1.8.0"
+regex = "1.7.1"
+tokio = { version = "1", features = [ "full" ] }
